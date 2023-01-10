@@ -102,7 +102,7 @@ function setup() {
   console.log(`target number: ${targetNumber}`);
 
   // Reset number of attempts
-  maxNumberOfAttempts = 5;
+  maxNumberOfAttempts = 0;
 
   // Enable the input and submit button
   submitButton.disabled = false;
